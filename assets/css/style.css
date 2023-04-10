@@ -1,9 +1,13 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
-    background-color: #e0e1dd;
+    background-color: #f8edeb;
+    margin: 0;
+}
+
+body {
     display: flex;
-    margin: 0;
 }
 
 nav {
@@ -13,7 +17,6 @@ nav {
     height: 100%;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #38a3a5;
 }
 
 .nav-item {
@@ -27,18 +30,37 @@ nav {
     font-size: 35px;
 }
 
-#home-icon {
-    background-color: #778da9;
+#home {
+    background-color: #56cfe1;
 }
 
 #about-me {
-    background-color: #415a77;
+    background-color: #48bfe3;
 }
 
 #my-work {
-    background-color: #1b263b;
+    background-color: #4ea8de;
 }
 
 #contact-me {
-    background-color: #0d1b2a;
+    background-color: #5390d9;
+}
+
+main {
+    margin-left: auto;
+    width: 80%;
+    position: relative;
+}
+
+.title-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 50px;
+    flex-direction: column;
+}
+
+.title-text h2 {
+    font-size: 20px;
 }
