@@ -148,7 +148,7 @@ main {
   flex-direction: column;
 }
 
-/* media queries */
+/* media queries */ 
 
 @media screen and (max-width: 1200px) {
     
@@ -224,3 +224,41 @@ main {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 320px) {
+
+    nav {
+      display: flex;
+      position: fixed;
+      width: 100%;
+      height: 10%;
+      flex-direction: row;
+      z-index: 9;
+    }
+  
+    .nav-item {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      font-size: 35px;
+    }
+  
+    main {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 80%;
+      margin: 300px 0px;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
