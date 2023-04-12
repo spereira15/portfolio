@@ -10,4 +10,4 @@ This is Simon Pereira's professional portfolio. Created for the Week #2 Challeng
 
 ## Links
 
-- Deployed application: 
+- Deployed application: https://spereira15.github.io/portfolio/#contact
